@@ -1,0 +1,71 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" con!_ent="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <title>Add Person</title>
+        <link rel="stylesheet" href="../css/person.css">
+        <script src="../js/person2.js"></script>  
+        <script src="../js/PersonData.js"></script>
+        <script defer src="../js/site_properties.js"></script> 
+
+    </head>
+    <body> 
+        <header class="header-content header">
+            <div class="logo-content">
+                <!-- <img src="../assets/images/logo.png" alt=""> -->
+                <div>
+                    <span class="emp-text">ADDRESS</span><br>
+                    <span class="emp-text emp—payroll">BOOK</span>
+                </div>
+            </div>
+        </header>
+        <div class="form-head"><form-head-1>PERSON ADDRESS FORM
+            <img src="../assets/cancel-3.png" style="width: 24px !important; height: 24px !important;">
+        </form-head-1></div>
+
+        <div class="form-content">
+            <form class="form" action="#">
+                <div class="column-content">
+                    <label class="label text" for="name">Full Name</label>  
+                    <input class="input" type="text" id="name" name="name" placeholder="Your name" required>
+                    <error-output class="text-error" for="text"></error-output>
+                </div>
+                <div class="column-content">
+                    <label class="label text" for="mobile">Mobile Number</label>  
+                    <input class="input" type="text" id="mobile" name="mobile" required>
+                    <error-output class="text-error" for="text"></error-output>
+                </div>
+                <div class="column-content">
+                    <label class="label text" for="address">Address</label>  
+                    <input class="input" type="text" id="address" name="address" style="height: 80px;" required>
+                    <error-output class="text-error" for="text"></error-output>
+                </div>
+                <div class="row-content">
+                    <select id="state" name="state" style="width: 30%; height: 40px;">
+
+                    </select>
+                    <select id="city" name="city" style="width: 30%; height: 40px; margin-left: 20px;">
+
+                    </select>
+                    <input type="text" id="pin" name="pin" placeholder="PIN Code" style="width: 30%; height: 40px; margin-left: 20px;" 
+                    required>
+                </div>
+                
+                <div class="buttonParent">
+                    <div class="submit-reset">
+                        <button type="submit" class="button submitButton" id="submitButton">Add</button>
+                        <button type="reset" class="resetButton button">Reset</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body> 
+</html>
+
+
+
+
+
